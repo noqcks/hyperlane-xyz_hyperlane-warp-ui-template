@@ -53,7 +53,7 @@ const connectors = connectorsForWallets([
       argentWallet(connectorConfig),
     ],
   },
-]);
+], { appName: 'RainbowKit App', projectId: 'YOUR_PROJECT_ID' });
 
 const wagmiConfig = createConfig({
   autoConnect: true,
