@@ -42,7 +42,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <Analytics />
               </AppLayout>
             </QueryClientProvider>
-            <ToastContainer transition={Zoom} position={toast.POSITION.BOTTOM_RIGHT} limit={2} />
+            <ToastContainer transition={Zoom} position="bottom-right" limit={2} />
           </CosmosWalletContext>
         </SolanaWalletContext>
       </EvmWalletContext>
