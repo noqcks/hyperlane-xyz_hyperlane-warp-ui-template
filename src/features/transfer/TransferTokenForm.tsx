@@ -14,7 +14,7 @@ import { ChevronIcon } from '../../components/icons/Chevron';
 import { WideChevron } from '../../components/icons/WideChevron';
 import { TextField } from '../../components/input/TextField';
 import { getIndexForToken, getTokenByIndex, getTokens, getWarpCore } from '../../context/context';
-import SwapIcon from '../../images/icons/swap.svg';
+import SwapIcon from '../../images/icons/swap.svg?inline';
 import { Color } from '../../styles/Color';
 import { logger } from '../../utils/logger';
 import { ChainSelectField } from '../chains/ChainSelectField';
