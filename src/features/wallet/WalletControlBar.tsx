@@ -5,7 +5,7 @@ import { shortenAddress } from '@hyperlane-xyz/utils';
 
 import { SolidButton } from '../../components/buttons/SolidButton';
 import { Identicon } from '../../components/icons/Identicon';
-import Wallet from '../../images/icons/wallet.svg';
+import Wallet from '../../images/icons/wallet.svg?inline';
 import { useIsSsr } from '../../utils/ssr';
 
 import { SideBarMenu } from './SideBarMenu';
