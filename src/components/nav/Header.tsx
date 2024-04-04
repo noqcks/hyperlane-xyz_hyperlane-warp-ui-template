@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { WalletControlBar } from '../../features/wallet/WalletControlBar';
 import Logo from '../../images/logos/app-logo.svg?inline';
 import Name from '../../images/logos/app-name.svg?component';
-import Title from '../../images/logos/app-title.svg';
+import Title from '../../images/logos/app-title.svg?component';
 
 export function Header() {
   return (
