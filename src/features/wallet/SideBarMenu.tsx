@@ -8,7 +8,7 @@ import { Identicon } from '../../components/icons/Identicon';
 import { PLACEHOLDER_COSMOS_CHAIN } from '../../consts/values';
 import { tryFindToken } from '../../context/context';
 import ArrowRightIcon from '@svgr/webpack!../../images/icons/arrow-right.svg';
-import CollapseIcon from '../../images/icons/collapse-icon.svg';
+import CollapseIcon from '../../images/icons/collapse-icon.svg?inline';
 import Logout from '../../images/icons/logout.svg';
 import ResetIcon from '../../images/icons/reset-icon.svg';
 import Wallet from '../../images/icons/wallet.svg';
