@@ -38,9 +38,7 @@ const connectors = connectorsForWallets([
     groupName: 'Recommended',
     wallets: [
       metaMaskWallet({ chains }),
-      injectedWallet({ chains }),
       walletConnectWallet({ chains }),
-      ledgerWallet({ chains }),
     ],
   },
   {
