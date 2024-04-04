@@ -8,7 +8,7 @@ import { TextInput } from '../../components/input/TextField';
 import { Modal } from '../../components/layout/Modal';
 import { config } from '../../consts/config';
 import { getWarpCore } from '../../context/context';
-import InfoIcon from '../../images/icons/info-circle.svg';
+import InfoIcon from '@svgr/webpack!../../images/icons/info-circle.svg';
 import { getChainDisplayName } from '../chains/utils';
 
 export function TokenListModal({
