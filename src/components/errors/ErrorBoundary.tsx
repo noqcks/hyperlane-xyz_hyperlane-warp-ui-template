@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Component } from 'react';
 
 import { links } from '../../consts/links';
-import ErrorIcon from '../../images/icons/error-circle.svg';
+import ErrorIcon from '../../images/icons/error-circle.svg?inline';
 import { logger } from '../../utils/logger';
 
 interface ErrorBoundaryState {
