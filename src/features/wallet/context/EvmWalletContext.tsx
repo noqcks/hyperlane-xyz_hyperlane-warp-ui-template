@@ -12,7 +12,8 @@ import {
   walletConnectWallet,
 } from '@rainbow-me/rainbowkit/wallets';
 import { PropsWithChildren, useMemo } from 'react';
-import { WagmiConfig, configureChains, createConfig } from 'wagmi';
+import { WagmiConfig, createConfig } from 'wagmi';
+import { configureChains } from 'wagmi/config';
 import { publicProvider } from 'wagmi/providers/public';
 
 import { ProtocolType } from '@hyperlane-xyz/utils';
