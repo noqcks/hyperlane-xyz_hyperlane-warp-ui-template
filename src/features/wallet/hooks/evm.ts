@@ -52,7 +52,7 @@ export function useEvmActiveChain(): ActiveChainInfo {
 export function useEvmTransactionFns(): ChainTransactionFns {
   const onSwitchNetwork = useCallback(async (chainName: ChainName) => {
     const chainId = getChainMetadata(chainName).chainId as number;
-    await switchNetwork({ chainId });
+    await switchNetwork(config, { chainId });
     // Some wallets seem to require a brief pause after switch
     await sleep(2000);
   }, []);
