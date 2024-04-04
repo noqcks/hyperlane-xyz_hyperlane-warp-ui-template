@@ -14,7 +14,7 @@ import {
 import { PropsWithChildren, useMemo } from 'react';
 import { WagmiConfig, createConfig } from 'wagmi';
 import { configureChains } from 'wagmi/config';
-import { publicProvider } from 'wagmi/providers/public';
+import { publicProvider } from 'wagmi/providers';
 
 import { ProtocolType } from '@hyperlane-xyz/utils';
 
