@@ -7,7 +7,7 @@ import { ChainLogo } from '../../components/icons/ChainLogo';
 import { Identicon } from '../../components/icons/Identicon';
 import { PLACEHOLDER_COSMOS_CHAIN } from '../../consts/values';
 import { tryFindToken } from '../../context/context';
-import ArrowRightIcon from '../../images/icons/arrow-right.svg';
+import ArrowRightIcon from '@svgr/webpack!../../images/icons/arrow-right.svg';
 import CollapseIcon from '../../images/icons/collapse-icon.svg';
 import Logout from '../../images/icons/logout.svg';
 import ResetIcon from '../../images/icons/reset-icon.svg';
