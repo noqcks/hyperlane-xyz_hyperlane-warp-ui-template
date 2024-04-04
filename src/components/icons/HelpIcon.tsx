@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { toast } from 'react-toastify';
 
-import Question from '../../images/icons/question-circle.svg';
+import Question from '../../images/icons/question-circle.svg?inline';
 import { IconButton } from '../buttons/IconButton';
 
 function _HelpIcon({ text, size = 20 }: { text: string; size?: number }) {
