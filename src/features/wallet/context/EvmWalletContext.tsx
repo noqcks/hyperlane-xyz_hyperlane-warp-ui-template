@@ -58,7 +58,11 @@ const connectors = connectorsForWallets([
 const wagmiConfig = createConfig({
   autoConnect: true,
   publicClient,
-  connectors,
+  connectors: [
+    injected(),
+    coinbaseWallet({ appName: 'YourAppName' }),
+    walletConnect({ projectId: process.env.YOUR_PROJECT_ID }),
+  ],
 });
 
 export function EvmWalletContext({ children }: PropsWithChildren<unknown>) {
