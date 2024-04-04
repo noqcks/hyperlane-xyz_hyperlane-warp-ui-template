@@ -10,7 +10,7 @@ import { TokenIcon } from '../../components/icons/TokenIcon';
 import { WideChevron } from '../../components/icons/WideChevron';
 import { Modal } from '../../components/layout/Modal';
 import { getMultiProvider, getWarpCore } from '../../context/context';
-import LinkIcon from '../../images/icons/external-link-icon.svg';
+import LinkIcon from '../../images/icons/external-link-icon.svg?react';
 import { formatTimestamp } from '../../utils/date';
 import { getHypExplorerLink } from '../../utils/links';
 import { logger } from '../../utils/logger';
