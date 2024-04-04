@@ -1,5 +1,5 @@
 import { useConnectModal } from '@rainbow-me/rainbowkit';
-import { getNetwork, sendTransaction, switchNetwork, waitForTransaction } from '@wagmi/core';
+import { sendTransaction, switchNetwork, waitForTransaction } from '@wagmi/core';
 import { useCallback, useMemo } from 'react';
 import { useAccount, useDisconnect, useNetwork } from 'wagmi';
 
