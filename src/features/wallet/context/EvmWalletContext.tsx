@@ -41,9 +41,6 @@ const connectors = connectorsForWallets([
       injectedWallet({ chains }),
       walletConnectWallet({ chains }),
       ledgerWallet({ chains }),
-      injectedWallet({}),
-      walletConnectWallet({}),
-      ledgerWallet({}),
     ],
   },
   {
