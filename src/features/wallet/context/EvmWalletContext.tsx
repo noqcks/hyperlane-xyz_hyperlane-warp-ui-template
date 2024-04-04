@@ -37,23 +37,23 @@ const connectors = connectorsForWallets([
   {
     groupName: 'Recommended',
     wallets: [
-      metaMaskWallet(connectorConfig),
-      injectedWallet(connectorConfig),
-      walletConnectWallet(connectorConfig),
-      ledgerWallet(connectorConfig),
+      metaMaskWallet({ appName: 'RainbowKit App' }),
+      injectedWallet({ appName: 'RainbowKit App' }),
+      walletConnectWallet({ appName: 'RainbowKit App' }),
+      ledgerWallet({ appName: 'RainbowKit App' }),
     ],
   },
   {
     groupName: 'More',
     wallets: [
-      coinbaseWallet(connectorConfig),
-      omniWallet(connectorConfig),
-      rainbowWallet(connectorConfig),
-      trustWallet(connectorConfig),
-      argentWallet(connectorConfig),
+      coinbaseWallet({ appName: 'RainbowKit App' }),
+      omniWallet({ appName: 'RainbowKit App' }),
+      rainbowWallet({ appName: 'RainbowKit App' }),
+      trustWallet({ appName: 'RainbowKit App' }),
+      argentWallet({ appName: 'RainbowKit App' }),
     ],
   },
-]);
+], { appName: 'RainbowKit App', projectId: 'YOUR_PROJECT_ID' });
 
 const wagmiConfig = createConfig({
   autoConnect: true,
