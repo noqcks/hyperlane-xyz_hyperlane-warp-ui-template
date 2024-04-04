@@ -70,7 +70,7 @@ export function EvmWalletContext({ children }: PropsWithChildren<unknown>) {
   return (
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider
-        chains={chains}
+        // chains prop removed as it's not supported in the latest version of RainbowKitProvider
         theme={lightTheme({
           accentColor: Color.primaryBlue,
           borderRadius: 'small',
