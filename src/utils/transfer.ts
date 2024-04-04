@@ -3,7 +3,7 @@ import {
   SentTransferStatuses,
   TransferStatus,
 } from '../features/transfer/types';
-import ConfirmedIcon from '../images/icons/confirmed-icon.svg';
+import ConfirmedIcon from '../images/icons/confirmed-icon.svg?inline';
 import DeliveredIcon from '../images/icons/delivered-icon.svg';
 import ErrorCircleIcon from '../images/icons/error-circle.svg';
 
