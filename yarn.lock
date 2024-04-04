@@ -3081,7 +3081,7 @@ __metadata:
     "@solana/wallet-adapter-react-ui": "npm:^0.9.31"
     "@solana/wallet-adapter-wallets": "npm:^0.19.16"
     "@solana/web3.js": "npm:^1.77.0"
-    "@tanstack/react-query": "npm:^4.29.7"
+    "@tanstack/react-query": "npm:^5.28.14"
     "@trivago/prettier-plugin-sort-imports": "npm:^4.1.1"
     "@types/jest": "npm:^29.5.3"
     "@types/node": "npm:^18.11.18"
@@ -5851,6 +5851,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.28.13":
+  version: 5.28.13
+  resolution: "@tanstack/query-core@npm:5.28.13"
+  checksum: bab25412d2f5481ea61ee6b1b9b31be9a8884afec26f7fab98985f5114d374fe6766460caeb2b4348af1108376295234a2d6de683c539f59323d824956229351
+  languageName: node
+  linkType: hard
+
 "@tanstack/query-persist-client-core@npm:4.29.7":
   version: 4.29.7
   resolution: "@tanstack/query-persist-client-core@npm:4.29.7"
@@ -5880,7 +5887,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:^4.28.0, @tanstack/react-query@npm:^4.29.7":
+"@tanstack/react-query@npm:^4.28.0":
   version: 4.29.7
   resolution: "@tanstack/react-query@npm:4.29.7"
   dependencies:
@@ -5896,6 +5903,17 @@ __metadata:
     react-native:
       optional: true
   checksum: 2d5941723791d7406232a2087dac2eb13eb08eccb6c7e54a47879deb9f5441993819a6c2a467cef283343c09e8496ae6f8950445baff8b02b9b03621c19868dc
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.28.14":
+  version: 5.28.14
+  resolution: "@tanstack/react-query@npm:5.28.14"
+  dependencies:
+    "@tanstack/query-core": "npm:5.28.13"
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 376cd46b20a32ab288640f6f90dc85acdf845cb2f283fd8f12f2ff8dcbb50a6416ea801a8034f5a0c54708fcf9f492cc3e84501f36be78b2b48eb378f149f423
   languageName: node
   linkType: hard
 
