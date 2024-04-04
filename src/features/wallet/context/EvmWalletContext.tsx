@@ -56,8 +56,6 @@ const connectors = connectorsForWallets([
 ]);
 
 const wagmiConfig = createConfig({
-  autoConnect: true,
-  publicClient,
   connectors: [
     injected(),
     coinbaseWallet({ appName: 'YourAppName' }),
