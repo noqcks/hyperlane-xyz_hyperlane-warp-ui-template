@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { links } from '../../consts/links';
-import FooterBg from '../../images/backgrounds/footer-bg.svg';
+import FooterBg from '../../images/backgrounds/footer-bg.svg?inline';
 import { Color } from '../../styles/Color';
 import { Discord } from '../icons/Discord';
 import { Github } from '../icons/Github';
