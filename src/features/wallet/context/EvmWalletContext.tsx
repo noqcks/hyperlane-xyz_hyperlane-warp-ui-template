@@ -37,20 +37,20 @@ const connectors = connectorsForWallets([
   {
     groupName: 'Recommended',
     wallets: [
-      metaMaskWallet({}),
-      injectedWallet({}),
-      walletConnectWallet({}),
-      ledgerWallet({}),
+      metaMaskWallet({ chains }),
+      injectedWallet({ chains }),
+      walletConnectWallet({ chains }),
+      ledgerWallet({ chains }),
     ],
   },
   {
     groupName: 'More',
     wallets: [
-      coinbaseWallet({}),
-      omniWallet({}),
-      rainbowWallet({}),
-      trustWallet({}),
-      argentWallet({}),
+      coinbaseWallet({ appName: "RainbowKit App", chains }),
+      omniWallet({ chains }),
+      rainbowWallet({ chains }),
+      trustWallet({ chains }),
+      argentWallet({ chains }),
     ],
   },
 ], { appName: 'RainbowKit App', projectId: 'YOUR_PROJECT_ID' });
