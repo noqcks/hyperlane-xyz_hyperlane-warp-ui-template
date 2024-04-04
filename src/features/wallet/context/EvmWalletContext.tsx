@@ -70,7 +70,6 @@ export function EvmWalletContext({ children }: PropsWithChildren<unknown>) {
   return (
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider
-        initialChain={initialChain}
         theme={lightTheme({
           accentColor: Color.primaryBlue,
           borderRadius: 'small',
