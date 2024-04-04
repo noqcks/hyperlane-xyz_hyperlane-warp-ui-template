@@ -5,7 +5,7 @@ import {
 } from '../features/transfer/types';
 import ConfirmedIcon from '../images/icons/confirmed-icon.svg?inline';
 import DeliveredIcon from '../images/icons/delivered-icon.svg?inline';
-import ErrorCircleIcon from '../images/icons/error-circle.svg';
+import ErrorCircleIcon from '../images/icons/error-circle.svg?react';
 
 export function getTransferStatusLabel(
   status: TransferStatus,
