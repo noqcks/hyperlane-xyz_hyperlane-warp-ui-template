@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 import CheckmarkIcon from '../../images/icons/checkmark.svg?inline';
-import CopyIcon from '../../images/icons/copy-stack.svg';
+import CopyIcon from '../../images/icons/copy-stack.svg?react';
 import { tryClipboardSet } from '../../utils/clipboard';
 
 interface Props {
