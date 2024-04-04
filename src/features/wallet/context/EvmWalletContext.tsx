@@ -38,9 +38,7 @@ const connectors = connectorsForWallets([
     groupName: 'Recommended',
     wallets: [
       metaMaskWallet({ appName: 'RainbowKit App' }),
-      injectedWallet({ appName: 'RainbowKit App' }),
       walletConnectWallet({ appName: 'RainbowKit App' }),
-      ledgerWallet({ appName: 'RainbowKit App' }),
     ],
   },
   {
