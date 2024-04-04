@@ -46,11 +46,11 @@ const connectors = connectorsForWallets([
   {
     groupName: 'More',
     wallets: [
-      coinbaseWallet({}),
-      omniWallet({}),
-      rainbowWallet({}),
-      trustWallet({}),
-      argentWallet({}),
+      coinbaseWallet({ chains }),
+      omniWallet({ chains }),
+      rainbowWallet({ chains }),
+      trustWallet({ chains }),
+      argentWallet({ chains }),
     ],
   },
 ], { appName: 'RainbowKit App', projectId: 'YOUR_PROJECT_ID' });
