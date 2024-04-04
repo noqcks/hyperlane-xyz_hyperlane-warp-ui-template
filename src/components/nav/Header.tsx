@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { WalletControlBar } from '../../features/wallet/WalletControlBar';
-import Logo from '../../images/logos/app-logo.svg';
+import Logo from '../../images/logos/app-logo.svg?inline';
 import Name from '../../images/logos/app-name.svg';
 import Title from '../../images/logos/app-title.svg';
 
